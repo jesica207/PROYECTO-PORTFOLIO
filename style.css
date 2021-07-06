@@ -1,0 +1,25 @@
+/* boby con sus margen y color*/
+
+body {
+    margin: 0;
+    color: magenta;
+}
+
+/* menu con su lista desordenada en css*/
+
+.menu {
+    background-color: yellow;
+}
+.lista {
+color: blueviolet;
+}
+.a1 {
+    color: blueviolet;
+}
+/* boton de contacto*/
+.boton {
+    
+}
+.devicon-html5-plain  {
+    font-size: 100px;
+}

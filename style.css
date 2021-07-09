@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    color: magenta;
+    color: mediumspringgreen;
   font-family: 'Lobster', cursive;
 }
 
@@ -11,23 +11,20 @@ h1 {
 }
 
 /* menu con su lista desordenada en css*/
-
 .menu {
-    background-color: yellow;
-}
-.lista {
-color: blueviolet;
-}
-.a1 {
-    color: blueviolet;
+    background-color: cyan;
 }
 
 
-/* empieza, header con sus div
-.principal {
-    height: 100vh;
-}*/
 
+/* empieza, header con sus div*/
+.contenedor2 {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* boton de contacto*/
@@ -41,18 +38,47 @@ color: blueviolet;
  /* iconos */
  .contenedor {
      background-color: pink;
-     height: 500px;
      display: flex;
-     justify-content: space-around;
+     justify-content: center;
      align-items: center;
      flex-wrap: wrap;
  }
  .tarjetas {
-     width: 200px;
+     width: 260px;
      height: 200px;
      background-color: red;
-     border: 2px solid black;
-     margin: 20px;
+     border: 1px solid black;
+     margin: 10px;
+     border-radius: 8px;
+     padding: 30px;
      }
+
+
+
+
+
+
+
+
+
+     /* mis proyectos*/
+     .contenedor3 {
+         background-color: darkmagenta;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+         flex-wrap: wrap;
+
+     }
+     .tarjetas1 {
+         display: flex;
+         width: 200px;
+         height: 200px;
+         background-color: darksalmon;
+         margin: 2px;
+         border-radius: 8px;
+     }
+  
 
 

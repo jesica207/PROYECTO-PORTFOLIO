@@ -3,6 +3,11 @@
 body {
     margin: 0;
     color: magenta;
+  font-family: 'Lobster', cursive;
+}
+
+h1 {
+    font-family: 'Bungee Inline', cursive;
 }
 
 /* menu con su lista desordenada en css*/
@@ -16,10 +21,38 @@ color: blueviolet;
 .a1 {
     color: blueviolet;
 }
+
+
+/* empieza, header con sus div
+.principal {
+    height: 100vh;
+}*/
+
+
+
 /* boton de contacto*/
 .boton {
-    
+    width: 200px;
+    height: 50px;
+    background-color: blueviolet;
+    border: 2px solid pink;
+
 }
-.devicon-html5-plain  {
-    font-size: 100px;
-}
+ /* iconos */
+ .contenedor {
+     background-color: pink;
+     height: 500px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+ .tarjetas {
+     width: 200px;
+     height: 200px;
+     background-color: red;
+     border: 2px solid black;
+     margin: 20px;
+     }
+
+

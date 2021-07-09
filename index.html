@@ -8,6 +8,14 @@
     <!-------------------------link css------------------->
 
     <link rel="stylesheet" href="style.css">
+    <!---------------link url tipografia------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+<!----------link url tipografia boby-------------->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
     <!------------------------link de iconos------------>
 
@@ -37,21 +45,20 @@
             <li class="lista"> <a href="#hola" class="a1"> hola</a></li>
             <li class="lista"> <a href="#conocimientos" class="a1"> conocimientos </a></li>
             <li class="lista"> <a href="#proyectos" class="a1"> proyectos</a></li>
-            <!----------boton de contacto--------------->
-            <li class="lista"> <a href="#contacto"> <div class="boton"> <button> contacto </button> </a></li></div>
+            <li class="lista"><a href="#contacto" class="a1">contacto</a></li>
          </ul>
         </nav>
     </div>
     <!----------------termino menu con su lista desordenada-------->
 
     <!------------empieza, header con sus div------------>
- <header class="principal">
+ <header class="principal" id="hola">
      <div>
          <div>
              <h2>¡Hola! Soy </h2>
-             <h1> jesica ynfante </h1>
+             <h1> Jesica Ynfante </h1>
              <p> Programadora, deportista, distribuidora de herbalife, soñadora y exitosa!!</p>
-             <button class="boton"> <a href="#lo que hago"></a> lo que hago</button>
+             <button class="boton"><a href="#lo que hago"></a> LO QUE HAGO</button>
          </div>
          <!-------------------imagen---------------------->
          <div>
@@ -62,7 +69,7 @@
  <!----------------termino header con sus div-------->
 
      <!-----------empieza, mis conocimientos seccion, div, h2 y parrafos---------------------->
-     <section>
+     <section class="mis conocimientos" id="conocimientos">
          <div>
 
            <div>
@@ -70,30 +77,36 @@
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique quia quaerat nemo omnis eius possimus consequuntur enim illo nobis nisi. Aspernatur quibusdam tempora deleniti laboriosam quasi? Fuga obcaecati ut aperiam?</p>
            </div>
            <!------------------iconos------------------>
-           <div>
+           <div class="contenedor">
                <!-----icono html------->
-               <div>
+               <div class="tarjetas">
                 <i class="devicon-html5-plain"></i>
+                <p> HTML</p>
                </div>
                <!------icono css3------>
-               <div>
+               <div class="tarjetas">
                 <i class="devicon-css3-plain"></i>
+                <P>CSS</P>
                </div>
                <!------icono sass------->
-               <div>
+               <div class="tarjetas">
                 <i class="devicon-sass-original"></i>
+                <P>SASS</P>
                </div>
                <!------icono javascript-->
-               <div>
-                <i class="devicon-javascript-plain colored"></i>
+               <div class="tarjetas">
+                <i class="devicon-javascript-plain"></i>
+                <P>JAVASCRIPT</P>
                </div>
                <!-------icono react--------->
-               <div>
-                <i class="devicon-react-original-wordmark colored"></i>
+               <div class="tarjetas">
+                <i class="devicon-react-original-wordmark"></i>
+                <P>REACT</P>
                </div>
                <!--------icono git--------->
-               <div>
-                <i class="devicon-git-plain colored"></i>
+               <div class="tarjetas">
+                <i class="devicon-git-plain"></i>
+                <P>GIT</P>
                </div>
 
              </div>
@@ -116,36 +129,58 @@
     <!-----termino, seccion antes de mis proyectos------>
 
     <!------empieza, seccion mis proyectos, div, img y parrafos-------->
-    <section>
+    <section class="proyectos" id="proyectos">
+        <h2>Mis proyectos</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         <div>
             <div>
                 <img src="./imagenes/bien hecho.svg" alt="bien hecho" class="regalos">
             </div>
             <div>
-                <img src="calendario en linea.svg" alt="calendario en linea">
+                <img src="./imagenes/calendario en linea.svg" alt="calendario en linea">
             </div>
             <div>
-                <img src="de viaje.svg" alt="de viaje">
+                <img src="./imagenes/de viaje.svg" alt="de viaje">
             </div>
             <div>
-                <img src="fiesta.svg" alt="fiesta">
+                <img src="./imagenes/fiesta.svg" alt="fiesta">
             </div>
             <div>
-                <img src="musica.svg" alt="musica">
+                <img src="./imagenes/musica.svg" alt="musica">
             </div>
             <div>
-                <img src="poderosa.svg" alt="poderosa">
+                <img src="./imagenes/poderosa.svg" alt="poderosa">
             </div>
             <div>
-                <img src="trabajo en equipo.svg" alt="trabajo en equipo">
+                <img src="./imagenes/trabajo en equipo.svg" alt="trabajo en equipo">
             </div>
             
 
         </div>
     </section>
-    <!----------- seccion de conttacto y escribime-------------->
-    <section>
+    <!----------- seccion de contacto y escribime-------------->
+    <section class="contacto" id="contacto">
         <div>
+            <!-----------div contactame-------------->
+            <div>
+                <h2> Contactame</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis!</p>
+
+
+
+
+
+
+
+            </div>
+            <!---------------div  escribime-------------->
+            <div>
+                <h2>Escribime</h2>
+
+
+
+
+            </div>
             
 
 

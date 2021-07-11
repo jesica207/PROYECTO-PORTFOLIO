@@ -7,15 +7,18 @@ body {
 }
 h2 {
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 h1 {
     font-family: 'Fredoka One', cursive;
+    color: blueviolet;
+
 }
 
 /* menu con su lista desordenada en css*/
 .menu {
-    background-color: cyan;
+    background-color: #fff;
     height: 80px;
 }
 .listaApp {
@@ -39,8 +42,9 @@ h1 {
 
 
 /* empieza, header con sus div*/
+
 .contenedor2 {
-    background-color: red;
+    background-color: pink ;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -82,7 +86,7 @@ h1 {
 
  /* iconos */
  .contenedor {
-     background-color: pink;
+     background-color: #fff;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -95,8 +99,8 @@ h1 {
      align-items: center;
      width: 260px;
      height: 200px;
-     background-color: red;
-     border: 1px solid black;
+     background-color: #fff;
+     border: 1px solid gainsboro;
      margin: 10px;
      border-radius: 8px;
      padding: 30px;
@@ -108,7 +112,7 @@ h1 {
 
     /*atrevete a soñar*/
     .soñar {
-        background-color: blue;
+        background-color: pink;
         padding: 100px;
     }
     .comillas {
@@ -164,6 +168,36 @@ h1 {
      .imagenes {
          width: 100%;
      }
-  
+     /* SECCION DE CONTACTO Y ESCRIBIME*/
+    
+     .contenedorContactoEscribime {
+         background-color: pink;
+         display: flex;
+     }
+     /* CONTACTAME LISTA*/
+
+     .izquierda-contacto {
+        width: 50%;
+    }
+    
+
+
+    /* ESCRIBIME FROM*/
+    
+    .contacto-form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    
+    }
+   
+    
+   
+
+
+
+
+
+
 
 

@@ -164,49 +164,69 @@
     </section>
     <!----------- seccion de contacto y escribime-------------->
     <section class="contacto" id="contacto">
-        <div>
+        <div class="contenedorContactoEscribime">
             <!-----------div contactame-------------->
-            <div>
-                <h2> Contactame</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis!</p>
+            <div class="izquierda-contacto">
+               <div class="contactoP"> 
+                 <h2> Contactame</h2>
+                 <p>Mis redes sociales </p>
+               </div>
+               <div>
+                   <nav>
+                       <ul class="ul-lista">
+                        <li class="primera-lista">
+                            <a href="https://twitter.com/jesicaynfante" class="https-twitter">
+                            <span>@JesicaYnfate</span></a>
+                        </li>   
+                        <li class="primera-lista">
+                            <a href="https://github.com/jesica207" class="https-twitter">
+                            <span>Jesica207</span></a>
+                        </li>
+                        <li class="primera-lista">
+                            <a href="https://ar.linkedin.com/in/jesica-ynafnte" class="https-twitter">
+                            <span>Jesica Ynfante</span></a>
+                        </li>
+                        <li class="primera-lista">
+                            <a href="mailto=chechu851@gmail.com" class="https-twitter">
+                            <span>chechu851@gmail.com</span></a>
+                        </li>
 
-
-
-
-
-
+                       </ul>
+                   </nav>
+               </div>
 
             </div>
-            <!---------------div  escribime-------------->
+            <!---------------div escribime, form-------------->
             <div>
-                <h2>Escribime</h2>
+                <div class="contacto-form">
+                    <h2>Escribime</h2>
+                    <form enctype="text/plain" name="primer_nombre">
+
+                        <label for="identificacion_de_nombre" action="" method="POST" class="nombre-for">Nombre*
+                            <input type="text" placeholder="p. ej.: Ada" id="identificacion_de_nombre" class="nombre-input">
+                            </label>
+
+                            <label for="identificacion_de_apellido" class="apellido-for">Apellido*
+                            <input type="text" placeholder="p. ej.: Lovelace" id="identificacion_de_apellido" class="apellido-input">
+                            </label>
+
+                            <label for="identificacion_de_email" class="email-for">Email*
+                            <input type="email" placeholder="p. ej.: ada.lovelace@gmail.com" id="identificacion_de_email" class="email-input">
+                            </label>
+
+                            <label for="identificacion_de_message" class="message-for">Mensaje*
+                            <textarea name="message" id="identificacion_de_message" cols="40" rows="20" placeholder="Escriba un mensaje aquí" class="message-tex"></textarea>
+                            </label>
+
+                            <button type="submit" class="button-sumit">Enviar</button>
 
 
+                    </form>
 
+                </div>
 
             </div>
             
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
 
 </section>
